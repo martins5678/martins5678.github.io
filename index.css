@@ -161,10 +161,7 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-#homepage div{
-    width: 60%;
-    background-color:white;
-}
+
 #homepage div a{
     width: 50%;
     background-color: gray;
