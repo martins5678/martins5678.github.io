@@ -161,6 +161,10 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
+#homepage-btn {
+    display: flex;
+    flex-direction: row;
+}
 
 
 
