@@ -161,11 +161,10 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-#homepage div{
-    background-color: chocolate;
-    width: auto;
-    padding: 2px;
-}
+#homepage-btn a{
+    font-size: 2rem;
+} 
+
 
 
 /* Services */
