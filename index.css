@@ -161,7 +161,10 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-
+#homepage div{
+    background-color: gold;
+    width: 25%;
+}
 
 
 /* Services */
