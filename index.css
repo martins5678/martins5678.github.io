@@ -162,8 +162,9 @@ img{object-fit: contain;
     font-weight: bold;
 }
 #homepage div{
-    background-color: gold;
-    width: 25%;
+    background-color: chocolate;
+    width: auto;
+    padding: 2px;
 }
 
 
