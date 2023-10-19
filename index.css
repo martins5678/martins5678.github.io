@@ -161,10 +161,17 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-
+#homepage div{
+    width: 60%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
 #homepage div a{
     width: 50%;
-    background-color: gray;
+    background-color: gold;
 
 }
 
