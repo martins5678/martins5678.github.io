@@ -162,7 +162,7 @@ img{object-fit: contain;
     font-weight: bold;
 }
 #homepage-btn {
-    width: auto;
+    display: block
 }
 
 
