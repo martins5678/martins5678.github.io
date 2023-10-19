@@ -161,7 +161,9 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-
+#homepage div{
+    width: 1900px;
+}
 
 
 /* Services */
