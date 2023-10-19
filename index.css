@@ -163,7 +163,12 @@ img{object-fit: contain;
 }
 #homepage div{
     width: 60%;
-    background-color: yellow;
+    background-color:white;
+}
+#homepage div a{
+    width: 50%;
+    background-color: gray;
+
 }
 
 
