@@ -149,6 +149,10 @@ img{object-fit: contain;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+
+
+
 #homepage h1{
     text-align: center;
 }
@@ -161,9 +165,10 @@ img{object-fit: contain;
 #homepage p span {
     font-weight: bold;
 }
-#homepage-btn a{
-    font-size: 2rem;
-} 
+
+
+
+
 
 
 
@@ -296,87 +301,6 @@ img{object-fit: contain;
     font-size: 0.7rem;
     color: black;
 }
-
-
-/* Project Page */
-#project-title {
-    padding-top: 3%;
-    padding-bottom: 2%;
-    background: url(images/navbar\ background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.addendum{
-    font-style: italic;
-    font-size: 1.0rem;
-}
-#summary {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5% 10%;
-}
-.summary-child:not(:last-child) {
-    margin-right: 30px;
-}
-.summary-child {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    background-color: teal;
-    padding: 2%;
-    margin-bottom: 30px;
-}
-.summary-child p {
-    width: 250px;
-}
-#problem-stm {
-    padding-top: 3%;
-    padding-bottom: 2%;
-}
-#problem-stm p{
-    padding-top: 10px;
-    padding-bottom: 5px;
-}
-#resources {
-    padding-top: 3%;
-    padding-bottom: 2%;
-}
-#resources p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-#resources ul {
-    padding-left: 20px;
-}
-#resources ul li{
-    font-size: 1.2rem;
-}
-#resources ul li span{
-    font-weight: bold;
-}
-#insight {
-    padding-top: 3%;
-    padding-bottom: 2%;
-}
-#insight p{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.image-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-.image-container img{
-    width: 300px;
-}
-.image-container img:not(:last-child) {
-    margin-right: 30px;
-    margin-bottom: 30px;
-}
-#auralin_john_doe img{
-    width: 80%;
-}
-
 
 
 /* Form */
@@ -726,21 +650,6 @@ img{object-fit: contain;
     .contact-parent{       
         padding: 0 5px;
     }
-
-    /* Project Page */
-    #summary {
-        flex-direction: column;
-    }
-    .summary-child:not(:last-child) {
-        margin-right: 30px;
-    }
-    .summary-child {
-        width: 300px; 
-    }
-    .summary-child p {
-        width: 95%;
-    }
-  
 
       
 }
