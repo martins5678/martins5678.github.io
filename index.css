@@ -418,7 +418,41 @@ img{object-fit: contain;
 
 
 
+/* Portfolio Page */
+.port-header {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+.port-body {
+    margin: 20px 50px;
+
+}
+.port-body h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.port-frame {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 20px 60px;
+}
+.port-frame-child1{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+.port-frame-child1 img {
+    width: 40%;
+}
+.port-frame-child2 {
+    width: 50%;
+}
 
 
 
@@ -532,6 +566,56 @@ img{object-fit: contain;
     .about-child-1 img{
         width: 150px;
     }    
+     /* Portfolio */
+     .portfolio-parent{
+        flex-direction: column;
+    }
+         
+    .portfolio-child{        
+        width: 90%;  
+        
+    }
+    /* About */          
+    
+    .about-parent{
+        flex-direction: column;
+        row-gap: 30px;
+        padding-left: 2px;
+    }  
+    
+    .about-child-2 p {
+        width: 300px;
+    }
+
+    
+    .contact-parent{       
+        padding: 0 5px;
+    }
+
+    /* Portfolio Page */
+    
+    .port-body {
+        margin: 20px 50px;
+
+    }
+    .port-body h4{
+        justify-content: left;
+    }
+    .port-frame {
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 30px;
+    }
+    .port-frame-child1{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .port-frame-child1 img {
+        width: 80%;
+    }
+    .port-frame-child2 {
+        width: 100%;
+    }
 
 }
 
@@ -650,6 +734,32 @@ img{object-fit: contain;
     .contact-parent{       
         padding: 0 5px;
     }
+
+    /* Portfolio Page */
+    
+    .port-body {
+        margin: 20px 50px;
+
+    }
+    .port-body h4{
+        justify-content: left;
+    }
+    .port-frame {
+        flex-direction: column;
+        padding: 10px 10px;
+        gap: 30px;
+    }
+    .port-frame-child1{
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .port-frame-child1 img {
+        width: 80%;
+    }
+    .port-frame-child2 {
+        width: 100%;
+    }
+
 
       
 }
