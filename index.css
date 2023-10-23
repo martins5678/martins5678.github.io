@@ -420,17 +420,24 @@ img{object-fit: contain;
 
 /* Portfolio Page */
 .port-header {
-    margin: 50px;
+    padding: 50px 0px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(images/Portfolio\ bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 
+}
+.port-header h3{
+    color: white;
 }
 .port-body {
     margin: 20px 50px;
 
 }
-.port-body h4{
+.port-body h3{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,7 +618,7 @@ img{object-fit: contain;
         justify-content: flex-start;
     }
     .port-frame-child1 img {
-        width: 80%;
+        width: 100%;
     }
     .port-frame-child2 {
         width: 100%;
@@ -754,7 +761,7 @@ img{object-fit: contain;
         justify-content: flex-start;
     }
     .port-frame-child1 img {
-        width: 80%;
+        width: 100%;
     }
     .port-frame-child2 {
         width: 100%;
