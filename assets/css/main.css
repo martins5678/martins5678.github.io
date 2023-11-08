@@ -2597,6 +2597,15 @@ input, select, textarea {
 	width: 80%;
 }
 
+@media screen and (max-width: 736px) {
+
+	#aboutme p {
+		width: 100%;
+	}
+
+}
+
+
 
 /* Image */
 
@@ -3817,6 +3826,7 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 736px) {
+		
 
 				#main > .post {
 					padding: 4rem 2rem 2rem 2rem ;
@@ -3963,6 +3973,10 @@ input, select, textarea {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		line-height: 5px;
+	}
+	#contact h2 {
+		margin-bottom: 5rem;
 	}
 
 	#footer {
