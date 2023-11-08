@@ -2596,6 +2596,9 @@ input, select, textarea {
 #aboutme p {
 	width: 80%;
 }
+#aboutme p span {
+	font-weight: bold;
+}
 
 @media screen and (max-width: 736px) {
 
